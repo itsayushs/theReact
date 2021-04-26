@@ -10,7 +10,9 @@ function App() {
         This is App Component
       <Component1/>
       <Counter/>
-      <PropsUse name='Dunk'/>
+      <PropsUse name='Dunk' variable2='Slam'/>
+      <PropsUse name='Dunk' variable2='Slammer'/>
+      <PropsUse name='Dunki' variable2='Slam'/>
       </header>
     </div>
   );

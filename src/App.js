@@ -31,6 +31,14 @@ function App() {
           }
         )
       }
+      {// Another way of doing this is using -> spread ... 
+       // only works when the props object keys are similar to the dataItems
+        incomingDataArr.map(
+          (dataItem) => {
+            return <PropsUse {...dataItem}/>
+          }
+        )
+      }
       </header>
     </div>
   );
